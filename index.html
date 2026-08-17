@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        defer>
+    </script>
+    <script src="js/script.js" defer></script>
+
+    <title>Girls Who Code RPI</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Karla:wght@300&family=Oswald:wght@300&family=Pacifico&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--NAVIGATION BAR (implemented with Bootstrap) -->
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark-blue fixed-top">
+        <div class="container-fluid px-3 px-lg-4">
+        <a class="nav-link js-scroll-trigger active" href="#home"><img id="gwc-logo-white"
+                src="assets/img/gwc_logo_white.png" alt="GWC Logo" width="125px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="navbar-collapse collapse order-3 dual-collapse2" id="navbarNav">
+            
+            <ul class="navbar-nav mx-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#about">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#calendar">Calendar</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#gallery">Photo Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#resources">Resources</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#sponsorship">Sponsorship</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger nav-link-size" href="#board">Board</a>
+                </li>
+            </ul>
+
+            <a id="discord-link" class="nav-link js-scroll-trigger" href="https://discord.gg/ACcQ8MvZwq">Join on
+                Discord</a>
+
+        </div>
+        </div>
+    </nav>
+    <section id="home">
+        <div class="container-fluid">
+            <div class="row align-items-center min-vh-100">
+                <!-- Left side -->
+                <div class="col-lg-6">
+                    <img id="gwc-homepage-logo" src="assets/img/gwcHome.svg" alt="GWC Logo">
+
+                    <p class="hero-description">
+                        Girls Who Code is building a sisterhood of
+                        future engineers, designers, and tech leaders!
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#about" class="btn btn-light hero-btn">
+                            Learn About Us
+                        </a>
+
+                        <a href="#calendar" class="btn btn-outline-light hero-btn">
+                            Upcoming Events
+                            <span class="ms-2"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right side -->
+                <div class="col-lg-6">
+                    <div class="image-collage">
+
+                        <div class="hero-image-wrap image-one">
+                            <img
+                                src="assets/img/gwc_technical.png"
+                                class="hero-image"
+                                alt="Students working together">
+                        </div>
+
+                        <div class="hero-image-wrap image-two">
+                            <img
+                                src="assets/img/gwc_march.png"
+                                class="hero-image"
+                                alt="Girls Who Code member">
+                        </div>
+
+                        <div class="hero-image-wrap image-three">
+                            <img
+                                src="assets/img/gwc_nrb.png"
+                                class="hero-image"
+                                alt="Students in a classroom">
+                        </div>
+
+                        <div class="hero-image-wrap image-four">
+                            <img
+                                src="assets/img/gwc_cert.png"
+                                class="hero-image"
+                                alt="Students collaborating">
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="about">
+        
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col text-center">
+                    <img class="svg-header" src="assets/img/aboutUs.svg" alt="About Us Header">
+                </div>
+            </div>
+            
+            <div class="row align-items-center g-5">
+                <div class="col-lg-5">
+                    <div class="about-image-wrapper">
+                        <img src="assets/img/gwc_group.png" class="img-fluid rounded-4 shadow" alt="Girls Who Code Members">
+                    </div>
+                </div>
+
+                <div class="col-lg-7">
+
+                    <div class="section-text">
+                    <!-- <h2>Mission</h2> -->
+                        <p id="aboutUs-description">Girls Who Code is a social and professional club that strives to connect girls and help
+                            them further their computer science skills. Our goals include creating a safe space to
+                            teach girls about computer science along with working towards closing the gender gap in
+                            technology by inspiring others to learn computer science. We envision teaching girls from all majors and backgrounds. We want every girl to have
+                        an opportunity to learn computer science and utilize this knowledge to make an impact
+                        on the world in their own way. </p>
+                    <!--Girls Who Code is on a mission to close the gender gap in technology and to change the image of what a programmer looks like and does -->
+                </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <section id="calendar">
+        <div class="text-center">
+            <img class="svg-header" src="assets/img/calendar.svg" alt="Calendar Header">
+            <div class="calendar-frame">
+                <iframe
+                    src="https://calendar.google.com/calendar/embed?src=girlswhocode.rpi%40gmail.com&ctz=America%2FNew_York"
+                    title="Girls Who Code RPI calendar"
+                    loading="lazy"
+                    frameborder="0"
+                    scrolling="no"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section class="gallery-section" id="gallery">
+        <div class="text-center mb-5">
+            <img class="svg-header" src="assets/img/photoGallery.svg" alt="Photo Gallery Header">
+        </div>
+
+        <div class="gallery-grid">
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_binary.png" alt="GWC members making binary bracelets" class="gallery-image">
+                    <span class="semester-badge">Spring 2026</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>RPI EED Binary Bracelets</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_gingerbread.png" alt="GWC members decorating gingerbread houses" class="gallery-image">
+                    <span class="semester-badge">Fall 2025</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Gingerbread House Competition</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_pickleball.png" alt="GWC playing pickleball" class="gallery-image">
+                    <span class="semester-badge">Spring 2026</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Finals Week Pickle Ball</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_pinterest.png" alt="GWC Pinterest Day in the Life" class="gallery-image">
+                    <span class="semester-badge">Spring 2025</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Pinterest Day in the Life</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_pumpkin.png" alt="GWC painting pumpkins" class="gallery-image">
+                    <span class="semester-badge">Fall 2025</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Pumpkin Painting</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_robotics.png" alt="Girls Who Code robotics workshop" class="gallery-image">
+                    <span class="semester-badge">Spring 2025</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Robotics Workshop</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_vibe_code.png" alt="GWC vibe coding workshop" class="gallery-image">
+                    <span class="semester-badge">Spring 2026</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>Vibe Coding Hackathon</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_womens_day.png" alt="GWC celebrating International Women's Day" class="gallery-image">
+                    <span class="semester-badge">Spring {$currentYear}</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>International Women's Day</h3>
+                </div>
+            </div>
+
+            <div class="gallery-card">
+                <div class="gallery-image-container">
+                    <img src="assets/instagram/gwc_resume_review.png" alt="GWC Resume Review" class="gallery-image">
+                    <span class="semester-badge">Fall 2025</span>
+                </div>
+
+                <div class="gallery-content">
+                    <h3>J&J Resume Review</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="resources">
+        <div class="text-center">
+            <img class="svg-header" src="assets/img/resources.svg" alt="Resources Header">
+        </div>
+        <br>
+        <div class="container">
+            <div class="resources-grid">
+                <!-- national site -->
+                <a class="resource-card" href="https://girlswhocode.com/" target="_blank">
+                    <div class="resource-icon">
+                        <i class="ri-global-line"></i>
+                    </div>
+
+                    <h3>Girls Who Code</h3>
+                    <p>National programs, scholarships, and opportunities.</p>
+                </a>
+
+                <!-- outreach resources -->
+                <div class="resources-locked">
+                    <div class="locked-header">
+                        <i class="ri-lock-2-line"></i>
+                        <div>
+                            <h3>Workshop Resources</h3>
+                            <p>These workshop materials are available to members who attended the outreach sessions.</p>
+                        </div>
+
+                    </div>
+
+                    <div class="locked-links">
+                        <a href="https://drive.google.com/drive/folders/1LQSFujhoEiUcufCOFUAH_uPgTiMmQKOo?usp=sharing" target="_blank" rel="noopener">
+                            <i class="ri-folder-open-line"></i>
+                            MIT App Inventor Slides
+                        </a>
+
+                        <a href="https://drive.google.com/drive/folders/1QMASP7238iMgXRe1FNJdMgFZvOKxAX-n?usp=sharing" target="_blank" rel="noopener">
+                            <i class="ri-folder-open-line"></i>
+                            Microsoft MakeCode Slides
+                        </a>
+
+                        <a href="https://drive.google.com/drive/folders/1LUlU96Y6KAEc755oRXyOf8DOUnuS8AoA?usp=sharing" target="_blank" rel="noopener">
+                            <i class="ri-folder-open-line"></i>
+                            Binary Bracelets
+                        </a>
+                    </div>
+
+                </div>
+
+                <!-- loops login -->
+                <a class="resource-card" href="https://hq.girlswhocode.com/login" target="_blank">
+                    <div class="resource-icon">
+                        <i class="ri-graduation-cap-line"></i>
+                    </div>
+                    <h3>College Loops</h3>
+                    <p>Access national Girls Who Code resources and learning content.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sponsorship">
+            <div class="text-center">
+                <img class="svg-header" src="assets/img/sponsorship.svg" alt="Sponsorship Header">
+                <br>
+                <p> Interested in sponsoring Girls Who Code RPI? <br> Click here to see our
+                    <a class="sponsorship" target="_blank" href="assets/RPI_GWC_Sponsorship_packet_21-22.pdf">Sponsorship Packet</a>
+                </p>
+            </div>
+    </section>
+
+    <section id="board">
+        <div class="text-center">
+            <img class="svg-header" src="assets/img/board.svg" alt="Board Header">
+        </div>
+
+        <!-- Continuous auto-scrolling board strip.-->
+        <div class="board-scroll-outer">
+            <div class="board-scroll-track">
+
+                <!-- Set 1 -->
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/camila.png" alt="Camila">
+                    <div class="board-scroll-body">
+                        <h3>Camila Kulahlioglu</h3>
+                        <p>Computer Science & ITWS</p>
+                        <p>Senior, President</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/sahasra.jpeg" alt="Sahasra">
+                    <div class="board-scroll-body">
+                        <h3>Sahasra Yellapragada</h3>
+                        <p>ITWS &amp; Business/Management</p>
+                        <p>Senior, Vice President</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/rebecca.jpeg" alt="Rebecca">
+                    <div class="board-scroll-body">
+                        <h3>Rebecca Prasad</h3>
+                        <p>Computer Science & Business Analytics</p>
+                        <p>Junior, Treasurer</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/milana.jpeg" alt="Milana">
+                    <div class="board-scroll-body">
+                        <h3>Milana Smirnoff</h3>
+                        <p>Computer and Systems Engineering & Electronic Arts</p>
+                        <p>Sophomore, Outreach</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/grace.png" alt="Grace">
+                    <div class="board-scroll-body">
+                        <h3>Grace Hui</h3>
+                        <p>Computer Science & ITWS</p>
+                        <p>Senior, Technical Lead</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/sanyu.jpeg" alt="Sanyu">
+                    <div class="board-scroll-body">
+                        <h3>Sanyu Karathody</h3>
+                        <p>Electrical & Computer Systems Engineering</p>
+                        <p>Sophomore, Sophomore Rep</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card">
+                    <img src="assets/img/team/arya.png" alt="Arya">
+                    <div class="board-scroll-body">
+                        <h3>Arya Jodh</h3>
+                        <p>Computer Science & Economics</p>
+                        <p>Junior, Corporate Relations</p>
+                    </div>
+                </div>
+
+                <!-- Set 2 (duplicate, hidden from assistive tech) so the loop is seamless -->
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/camila.png" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Camila Kulahlioglu</h3>
+                        <p>Computer Science & ITWS</p>
+                        <p>Senior, President</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/sahasra.jpeg" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Sahasra Yellapragada</h3>
+                        <p>ITWS &amp; Business/Management</p>
+                        <p>Senior, Vice President</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/rebecca.jpeg" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Rebecca Prasad</h3>
+                        <p>Computer Science & Business Analytics</p>
+                        <p>Junior, Treasurer</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/milana.jpeg" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Milana Smirnoff</h3>
+                        <p>Computer and Systems Engineering & Electronic Arts</p>
+                        <p>Sophomore, Outreach</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/grace.png" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Grace Hui</h3>
+                        <p>Computer Science & ITWS</p>
+                        <p>Senior, Technical Lead</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/sanyu.jpeg" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Sanyu Karathody</h3>
+                        <p>Electrical & Computer Systems Engineering</p>
+                        <p>Sophomore, Sophomore Rep</p>
+                    </div>
+                </div>
+
+                <div class="board-scroll-card" aria-hidden="true">
+                    <img src="assets/img/team/arya.png" alt="">
+                    <div class="board-scroll-body">
+                        <h3>Arya Jodh</h3>
+                        <p>Computer Science & Economics</p>
+                        <p>Junior, Corporate Relations</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-brand">
+            <a class="nav-link js-scroll-trigger active" href="#home"><img id="gwc-logo-white"
+                    src="assets/img/gwc_logo_white.svg" alt="GWC Logo" width="150px"></a>
+        </div>
+        <div class="footer-contact">
+            <div class="text-lg-end text-center"><a id="email-link" href="mailto:girlswhocode.rpi@gmail.com">girlswhocode.rpi@gmail.com</a>
+                <div>
+                    <a class="contact-icon" href="https://www.instagram.com/gwcrpi/"><i
+                            class="ri-instagram-line"></i></a>
+                    <a class="contact-icon" href="https://discord.gg/ACcQ8MvZwq"><i class="ri-discord-fill"></i></a>
+                    <a class="contact-icon" href="https://github.com/girlswhocoderpi"><i class="ri-github-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
